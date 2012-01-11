@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+    <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+        <Button
+          android:id="@+id/share_data"
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+          android:text="Share Data"
+          />
+        <TextView
+          android:layout_height="wrap_content"
+          android:layout_width="fill_parent"
+          android:text="CSV Data"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          />
+        <HorizontalScrollView
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content">
+            <TextView
+              android:id="@+id/csv_data"
+              android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              />
+        </HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>
