@@ -33,16 +33,13 @@ Quickstart
 
 #. Add the Android library ZeoDataContract.jar to your project.
 
-#. Add to your AndroidManifest.xml the following permission:
-
-.. code-block:: xml
+#. Add to your AndroidManifest.xml the following permission
+::
 
    <uses-permission android:name="com.myzeo.permission.READ_SLEEP_RECORDS"/>
 
-#. Attempt to query the data provider for zq scores of all sleep records from within an activity:
-
-.. code-block:: java
-  :linenos:
+#. Attempt to query the data provider for zq scores of all sleep records from within an activity
+::
 
    import static com.myzeo.android.api.data.ZeoDataContract.SleepRecord;
    // ...
@@ -137,9 +134,7 @@ User Permissions
 ================
 
 To read data from the Zeo data provider you must include the
-*READ_SLEEP_RECORDS* permission in your manifest file.
-
-.. code-block:: xml
+*READ_SLEEP_RECORDS* permission in your manifest file::
 
    <uses-permission android:name="com.myzeo.permission.READ_SLEEP_RECORDS"/>
 
