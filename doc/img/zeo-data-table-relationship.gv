@@ -1,0 +1,22 @@
+digraph "zeo tables" {
+    fontname = "Bitstream Vera Sans"
+    fontsize = 8
+    node [
+          fontname = "Bitstream Vera Sans"
+          fontsize = 8
+          style=filled
+          ]
+    edge [
+          fontname = "Bitstream Vera Sans"
+          fontsize = 8
+          ]
+    "SleepRecord" -> "SleepEpisode";
+    "AlarmAlertEvent" -> "SleepEpisode";
+    "AlarmSnoozeEvent" -> "SleepEpisode";
+    "AlarmTimeoutEvent" -> "SleepEpisode";
+    "SleepEpisode" [fillcolor=aquamarine]
+    "SleepRecord" [fillcolor=yellow]
+    "AlarmAlertEvent" [fillcolor=blue]
+    "AlarmSnoozeEvent" [fillcolor=cadetblue]
+    "AlarmTimeoutEvent" [fillcolor=crimson]
+}
