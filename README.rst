@@ -60,7 +60,7 @@ Basics
 ======
 
 Download the this project from github via::
-   git clone git@github.com:zeoeng/zeo-android-api.git
+   git clone git://github.com/zeoeng/zeo-android-api.git
 
 and either copy the ZeoDataContract.java to a correct package directory layout
 within your own source tree OR include the android library project into your
